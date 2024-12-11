@@ -1,0 +1,47 @@
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px 150px;
+}
+
+.input-form {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form input {
+  width: 300px;
+  height: 35px;
+  padding: 8px;
+}
+
+.input-form button {
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.tast-status--conatainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inprogress-container,
+.done-container {
+  border: 1 solid gray;
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
